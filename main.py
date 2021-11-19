@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import time
 import smbus
-exit(0)
+#exit(0)
 # 0 = /dev/i2c-0 (port I2C0), 1 = /dev/i2c-1 (port I2C1)
 bus = smbus.SMBus(1)
 
